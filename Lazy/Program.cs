@@ -52,6 +52,12 @@ namespace LazyTest
 
         static void Main(string[] args)
         {
+            //Release run:
+            //MyBoolProp: 61 ms
+            //MyLazyBool: 31 ms
+            //LazyBool: 12 ms
+            //EagerBool: 5 ms
+
             {
                 var timer = new System.Diagnostics.Stopwatch();
                 timer.Start();
